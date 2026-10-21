@@ -29,7 +29,7 @@
 
 ## 4. Association PASSER
 
-| Entité 1 | Cardinalité | Association | Cardinalité | Entité 2 |
+| Entité | Cardinalité | Association | Cardinalité | Entité |
 |---|---|---|---|---|
 | CLIENT | (0,N) | PASSER | (1,1) | COMMANDE |
 
@@ -37,7 +37,7 @@ Un client peut passer plusieurs commandes. Chaque commande appartient à un seul
 
 ## 5. Association CONTENIR
 
-| Entité 1 | Cardinalité | Association | Cardinalité | Entité 2 |
+| Entité  | Cardinalité | Association | Cardinalité | Entité  |
 |---|---|---|---|---|
 | COMMANDE | (1,N) | CONTENIR | (0,N) | REPAS |
 

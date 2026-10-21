@@ -31,10 +31,8 @@ let somme = 0;
 let nombreArticlesChers = 0;
 let montantArticlesChers = 0;
 for (let i = 0; i < panier.length; i++) {
-    // Additionner tous les prix
-    somme = somme + panier[i];
 
-    // Vérifier si l'article est cher
+    somme = somme + panier[i];
     if (panier[i] >= 20) {
         nombreArticlesChers++;
         montantArticlesChers = montantArticlesChers + panier[i];
