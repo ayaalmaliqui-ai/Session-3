@@ -8,7 +8,6 @@ for (let i = 0; i < mots.length; i++) {
         motsLongs++;
     }
 }
-
 console.log("Nombre de mots longs :", motsLongs);
 
 // Exe2 
