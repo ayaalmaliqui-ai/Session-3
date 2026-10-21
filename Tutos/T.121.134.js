@@ -31,12 +31,6 @@ let panier = [15, 42, 5, 89, 12, 50, 8];
 let somme = 0;
 let nombreArticlesChers = 0;
 let montantArticlesChers = 0;
-
-/*
-La variable somme doit être déclarée avant la boucle
-pour conserver le total et l'accumuler à chaque tour.
-*/
-
 for (let i = 0; i < panier.length; i++) {
     // Additionner tous les prix
     somme = somme + panier[i];
