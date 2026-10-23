@@ -1,6 +1,7 @@
 let produits = ["Clavier", "Souris", "Écran", "Casque"];
 let prix = [150, 80, 1200, 250];
 let stocks = [10, 0, 5, 3];
+
 let valeurTotale = 0;
 let indexMax = 0;
 
