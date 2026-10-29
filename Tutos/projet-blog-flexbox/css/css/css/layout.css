@@ -61,3 +61,11 @@
     color: #9ca3af;
     font-size: 12px;
  }
+ .barre-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pied-de-page {
+  margin-top: 80px;
+}
