@@ -18,6 +18,11 @@
     color: #2673e8;
 }
 
+.liens-navigation {
+    display: flex;
+    gap: 24px;
+}
+
 .liens-navigation a {
     color: #6b7280;
     font-size: 14px;
@@ -36,6 +41,7 @@
 
 .conteneur-pied-de-page {
     display: flex;
+    gap: 48px;
     justify-content: space-between;
 }
 
