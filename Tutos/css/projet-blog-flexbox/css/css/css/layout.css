@@ -28,13 +28,16 @@
     justify-content: space-between;
 }
 .pied-de-page {
+    margin-top: 80px; 
+    padding: 64px 24px 24px;
+    background: white; 
+    border-top: 1px solid #e5e7eb;
+}
+
+.conteneur-pied-de-page {
     display: flex;
     justify-content: space-between;
-     margin-top: 80px; 
-     padding: 64px 24px 24px;
-     background: white; 
-     border-top: 1px solid #e5e7eb;
-     }
+}
 
 .colonne-pied-de-page h2 {
      margin: 0 0 20px; 
@@ -65,7 +68,4 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.pied-de-page {
-  margin-top: 80px;
 }
